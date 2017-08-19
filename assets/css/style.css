@@ -9,10 +9,30 @@ h2 {
 }
 
 body {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
 }
+
+form{
+	padding: 10px;
+	border-radius: 1px;
+	margin: 1px;
+}
+
+textarea{
+	width: 300px;
+	height: 150px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+  background-image: url("../images/patternbackground.png");
+}
+
 
 #content {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -20,10 +40,7 @@ body {
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 2px;
-	background-image: url("../images/patternbackground.png");
 	padding: 20px 0px 0 0;
-	flex: 1 0 auto;
-
 }
 
 #header {
@@ -101,7 +118,6 @@ body {
 	text-align: center;
 	border: 2px solid #cccccc;
 	margin: 0 0 0 40px;
-	flex: 1 0 auto;
 }
 
 footer {
